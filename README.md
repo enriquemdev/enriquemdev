@@ -74,7 +74,7 @@ These are technologies I’ve briefly worked with and am excited to dive deeper 
 Here’s a look at my GitHub activity, including commit statistics and more:
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=enriquemdev&show_icons=true&theme=radical&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+  <!-- <img src="https://github-readme-stats.vercel.app/api?username=enriquemdev&show_icons=true&theme=radical&count_private=true&include_all_commits=true" alt="GitHub Stats" /> -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=enriquemdev&theme=radical" alt="GitHub Streak" />
 </p>
 
