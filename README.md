@@ -81,7 +81,7 @@ Aplicación de conversaciones en tiempo real con una integración experimental d
 
 [Ver implementación de IA](https://github.com/enriquemdev/NexTalk/blob/02eb8d2f318c40601d4bd899de83d128f0e72158/src/app/api/summary/route.ts) · [Rama experimental](https://github.com/enriquemdev/NexTalk/tree/frontend)
 
-> Estado: la integración de IA está en `frontend`; su consolidación en `main` y validación con servicios reales están en curso. No se presenta como demo de producción ni como transcripción automática de audio.
+> **Estado:** integración experimental disponible en `frontend`, pendiente de consolidación en `main` y validación con servicios reales.
 
 ## Contribuciones open source
 
@@ -168,7 +168,7 @@ Servicios, APIs REST y sistemas de información con Go, Laravel y el ecosistema 
   <img alt="Postman" src="https://img.shields.io/badge/Postman-B94416?style=for-the-badge&amp;logo=postman&amp;logoColor=white" />
 </p>
 
-También he trabajado con Bootstrap, Material UI, shadcn/ui, jQuery, Inertia.js y CodeIgniter. Las tecnologías se agrupan por su uso, sin presentar todas como un mismo nivel de especialización.
+También he trabajado con Bootstrap, Material UI, shadcn/ui, jQuery, Inertia.js y CodeIgniter.
 
 </details>
 
@@ -178,8 +178,6 @@ También he trabajado con Bootstrap, Material UI, shadcn/ui, jQuery, Inertia.js 
 - **Construcción de extremo a extremo:** conectar interfaz, servicios, datos e infraestructura.
 - **IA con criterio:** integrar herramientas y modelos, comprobar resultados y documentar limitaciones.
 - **Colaboración:** trabajo en equipo, código mantenible y aportes open source.
-
-El trabajo para clientes se describe sin exponer código ni información confidencial; los proyectos personales y académicos se identifican como tales.
 
 ---
 
@@ -200,7 +198,7 @@ El trabajo para clientes se describe sin exponer código ni información confide
   <a href="https://github.com/enriquemdev?tab=repositories"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=enriquemdev&amp;layout=compact&amp;theme=github_dark&amp;hide_border=true&amp;langs_count=8&amp;title_color=7EE787&amp;text_color=C9D1D9&amp;bg_color=0D1117" alt="Distribución de lenguajes en repositorios públicos" width="360" /></a>
 </p>
 
-<sub>Tarjetas generadas por servicios externos. La distribución de lenguajes refleja código público, no años de experiencia ni dominio profesional; no representa todo mi trabajo en banca y proyectos privados.</sub>
+<sub>Distribución de lenguajes en mis repositorios públicos.</sub>
 
 ---
 
