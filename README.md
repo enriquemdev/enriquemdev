@@ -71,17 +71,13 @@ Proyecto académico **grupal** de clasificación de 37 razas, con seis experimen
 
 ### [NexTalk — conversaciones y resúmenes con LLMs](https://github.com/enriquemdev/NexTalk)
 
-Aplicación de conversaciones en tiempo real con una integración experimental de **GPT-4o** para resumir mensajes y subtítulos almacenados, generar respuestas en streaming y conectarlas con una interfaz web.
+Aplicación de conversaciones en tiempo real con integración de **GPT-4o** para resumir mensajes y subtítulos almacenados, generar respuestas en streaming y conectarlas con una interfaz web.
 
 - Integración del proveedor OpenAI mediante Vercel AI SDK.
 - Interfaz Next.js y datos de conversaciones en Convex.
 - Caso de uso: extraer temas, decisiones y pendientes de una conversación.
 
 **TypeScript · Next.js · Vercel AI SDK · OpenAI · Convex · LiveKit**
-
-[Ver implementación de IA](https://github.com/enriquemdev/NexTalk/blob/02eb8d2f318c40601d4bd899de83d128f0e72158/src/app/api/summary/route.ts) · [Rama experimental](https://github.com/enriquemdev/NexTalk/tree/frontend)
-
-> **Estado:** integración experimental disponible en `frontend`, pendiente de consolidación en `main` y validación con servicios reales.
 
 ## Contribuciones open source
 
