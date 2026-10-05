@@ -27,7 +27,6 @@ Ingeniero de software con experiencia en inteligencia artificial, automatizació
 
 **Nicaragua · Full Stack · Mobile · Backend · Infraestructura**
 
-<a id="experiencia-profesional"></a>
 ## Experiencia profesional
 
 **Tribal WorldWide Guatemala · Desarrollo Full Stack**  
@@ -55,7 +54,6 @@ Desde 2023
 
 ---
 
-<a id="proyectos-de-ia"></a>
 ## Proyectos de IA
 
 ### [Oxford-IIIT Pet — clasificación de imágenes](https://github.com/enriquemdev/Ai-Oxford-IIIT-Pet-Dataset)
