@@ -1,6 +1,8 @@
 <h1 align="center">Enrique Muñoz</h1>
 <h3 align="center">Ingeniero de software · IA y automatización · Banca y fintech</h3>
 
+<p align="center"><a href="https://enriquemunoz.lat"><strong>Portafolio · enriquemunoz.lat ↗</strong></a></p>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&amp;size=20&amp;duration=3200&amp;pause=1600&amp;color=7EE787&amp;center=true&amp;vCenter=true&amp;width=520&amp;height=52&amp;lines=IA+y+automatizaci%C3%B3n;Software+para+banca+y+fintech;Mobile%2C+backend+e+infraestructura" />
