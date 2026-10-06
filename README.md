@@ -56,28 +56,43 @@ Desde 2023
 
 ## Proyectos de IA
 
-### [Oxford-IIIT Pet — clasificación de imágenes](https://github.com/enriquemdev/Ai-Oxford-IIIT-Pet-Dataset)
+### [Finest Computer Use — automatización de escritorio para agentes](https://github.com/enriquemdev/finest-computer-use)
 
-Proyecto académico **grupal** de clasificación de 37 razas, con seis experimentos: modelos densos, CNN propias y transfer learning con MobileNetV2.
+Desarrollé un motor de integración y control para habilitar **computer use en agentes de IA**, probado con Gemini en Antigravity sobre macOS mediante **Peekaboo MCP**.
 
-- Preparación de datos, comparación de modelos y selección mediante validación.
-- Evaluación final, matriz de confusión y análisis de errores por clase.
-- Resultado documentado del proyecto: **86.14 % de accuracy y 85.10 % de F1 macro en test**.
-- Notebook ejecutado, informe técnico e instrucciones de reproducción disponibles en el repositorio.
+- Capa propia en Python que intercepta herramientas y aplica autorización por tarea, límites de acciones y aislamiento de estado.
+- Ciclo de observación, acción y verificación; controles para reducir acciones no autorizadas y recuperar el flujo ante cambios inesperados de la interfaz.
+- Instalación con respaldo y rollback, diagnósticos, suites de regresión y documentación de arquitectura.
 
-**Python · TensorFlow/Keras · Computer Vision · Transfer Learning**
+**Python · Agentes de IA · MCP · Gemini/Antigravity · Automatización macOS**
 
-[Notebook](https://github.com/enriquemdev/Ai-Oxford-IIIT-Pet-Dataset/blob/main/Actividad_grupal_SCA.ipynb) · [Informe técnico](https://github.com/enriquemdev/Ai-Oxford-IIIT-Pet-Dataset/blob/main/output/pdf/informe_tecnico_oxford_pet.pdf)
+### [Global Chatbot — asistentes con conocimiento de negocio](https://github.com/enriquemdev/Global-Chatbot)
 
-### [NexTalk — conversaciones y resúmenes con LLMs](https://github.com/enriquemdev/NexTalk)
+Construí una plataforma de asistentes configurables para sitios web: **RAG con fuentes citadas**, panel administrativo y un widget aislado que se integra mediante un script.
 
-Aplicación de conversaciones en tiempo real con integración de **GPT-4o** para resumir mensajes y subtítulos almacenados, generar respuestas en streaming y conectarlas con una interfaz web.
+- Importación de texto, FAQ, PDF y URL; revisión y publicación del conocimiento por negocio.
+- Recuperación híbrida con embeddings E5 y PostgreSQL/pgvector; integración de Gemini para responder con contexto y fuentes.
+- Aislamiento multi-tenant con RLS, control de consumo, idempotencia y registro de conversaciones y contactos con consentimiento.
+- MVP desplegado en Vercel + Neon, con demo pública y evidencia documentada de consultas reales.
 
-- Integración del proveedor OpenAI mediante Vercel AI SDK.
-- Interfaz Next.js y datos de conversaciones en Convex.
-- Caso de uso: extraer temas, decisiones y pendientes de una conversación.
+**TypeScript · Next.js · RAG · Gemini · PostgreSQL/pgvector · Vercel · Neon**
 
-**TypeScript · Next.js · Vercel AI SDK · OpenAI · Convex · LiveKit**
+[Probar demo](https://global-chatbot-mvp.vercel.app/demo/aurora) · [Repositorio y documentación](https://github.com/enriquemdev/Global-Chatbot)
+
+### [Banking77 — clasificación de consultas bancarias](https://github.com/enriquemdev/banking77-transformers-demo)
+
+Segundo proyecto de mi **Maestría en Inteligencia Artificial**: ajuste de DistilRoBERTa para clasificar consultas en inglés en **77 intenciones bancarias**, comparado con un baseline TF-IDF + regresión logística.
+
+- **92,82 % de accuracy y 92,82 % de F1 macro** en el test oficial de 3.080 consultas; baseline: 85,03 % de accuracy.
+- Análisis de errores con Falcon-7B-Instruct en el notebook académico.
+- Demo de inferencia con FastAPI y Modal; notebook ejecutado, métricas e informe disponibles.
+
+**Python · Transformers · NLP · DistilRoBERTa · FastAPI · Modal**
+
+### Otros proyectos de IA
+
+- **[NexTalk](https://github.com/enriquemdev/NexTalk):** conversaciones en tiempo real y resúmenes con GPT-4o, Vercel AI SDK, Next.js y Convex.
+- **[Oxford-IIIT Pet](https://github.com/enriquemdev/Ai-Oxford-IIIT-Pet-Dataset):** primer proyecto de maestría, grupal y con implementación completa a mi cargo. Clasificación de 37 razas con TensorFlow/Keras y MobileNetV2; seis experimentos, **86,14 % de accuracy y 85,10 % de F1 macro en test**.
 
 ## Contribuciones open source
 
